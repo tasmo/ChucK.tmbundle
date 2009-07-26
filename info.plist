@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>ChucK</string>
+	<key>ordering</key>
+	<array>
+		<string>7EEB991E-91C3-46E0-B710-DA15D00CEDDE</string>
+		<string>040E6448-455F-43D6-82B4-70582121D6AC</string>
+		<string>15D5F74F-C569-4437-A935-036D85605FF8</string>
+		<string>0392537A-5A41-4A53-A1B1-886F192935B6</string>
+		<string>62C8DDB1-B212-41D9-94FA-B6299BC6C94E</string>
+	</array>
+	<key>uuid</key>
+	<string>626313F5-D9CA-4004-84A0-9C6498B207B4</string>
+</dict>
+</plist>
