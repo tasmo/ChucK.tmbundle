@@ -1,27 +1,34 @@
 h1. Textmate bundle for "ChucK":http://chuck.cs.princeton.edu/
-h3. What is what?
-"ChucK":http://chuck.cs.princeton.edu/ => Strongly-timed, Concurrent, and On-the-fly Audio Programming Language
-"Textmate":http://macromates.com/: the missing editor for Mac OSX(Macintosh operating system 10)
+
+h2. What is what?
+
+"ChucK":http://chuck.cs.princeton.edu/ => Strongly-timed, Concurrent, and On-the-fly Audio Programming Language<br />
+"Textmate":http://macromates.com/: the missing editor for Mac OSX(Macintosh operating system 10)<br />
 *ChucK.tmbundle* fills the gap between a GUI(graphical user interface) programming editor and the CLI(command line interface) programm *chuck*.
 
-h3. Bundle features:
+h2. Bundle features:
+
 * Syntax highlighting for *.ck* files
 * Run the CLI *chuck* in *Terminal*.app
 * Add files to *chuck*
 * Remove all shreds
 
-h3. Todo:
+h2. Todo:
+
 * add missing UGens
 * Fully working *"ChucK"* commands
 
-h3. Installation:
+h2. Installation:
+
 In *Terminal.app* execute:
+
 @mkdir -p ~/Library/Application\ Support/TextMate/Bundles/@
 @cd ~/Library/Application\ Support/TextMate/Bundles@
 @git clone git://github.com/tasmo/ChucK.tmbundle.git ChucK.tmbundle@
 @osascript -e 'tell app "TextMate" to reload bundles'@
 
-h3. Key short cuts:
+h2. Key short cuts:
+
 * @⌃⌘+@ – add file to chuck
 * @⌃⌘-@ – remove all shreds
 * @⌃⌘.@ – run chuck in Terminal
