@@ -1,0 +1,59 @@
+{	scopeName = 'source.chuck';
+	fileTypes = ( 'ck' );
+	foldingStartMarker = '\{|\/\*';
+	foldingStopMarker = '\}|\*\/';
+	patterns = (
+		{	name = 'comment.single.chuck';
+			match = '\/\/.*';
+		},
+		{	name = 'comment.multiline.chuck';
+			begin = '\/\*';
+			end = '\*\/';
+		},
+		{	name = 'constant.numeric.chuck';
+			match = '\b(0[xX]\h(?>_?\h)*|\d(?>_?\d)*(\.(?![^[:space:][:digit:]])(?>_?\d)*)?([eE][-+]?\d(?>_?\d)*)?|0[bB][01]+|pi)\b';
+		},
+		{	name = 'constant.language.chuck';
+			match = '\b(null|NULL|true|false)\b';
+		},
+		{	name = 'constant.other.chuck';
+			match = '\b(then|before|after|at)\b';
+		},
+		{	name = 'keyword.control.chuck';
+			match = '(while|until|repeat|break|continue|return|switch|repeat)';
+		},
+		{	name = 'keyword.operator.chuck';
+			match = '\=\>|\=\<|\@\=\>|\+|\+\+|\-|\-\-|\*|\/(?!\/)|\%|\+\=\>|\-\=\>|\*\=\>|\/\=\>|\%\=\>|\=\=|\!\=|\<|\>|\<\=|\>\=|\&\&|\|\||\<\<|\>\>|\&|\||\^|\$|::|\<\<\<|\>\>\>';
+		},
+		{	name = 'string.quoted.double.chuck';
+			begin = '"';
+			end = '"';
+			patterns = (
+				{	name = 'constant.character.escaped.chuck';
+					match = '\\.';
+				},
+			);
+		},
+		{	name = 'storage.type.chuck';
+			match = '\b(int|float|time|dur|void|same|for|if|else|class|extends|this|super|interface|implements|function|fun|spork|const|new|now|maybe|me|samp|ms|second|minute|hour|day|week)\b';
+		},
+		{	name = 'storage.modifier.chuck';
+			match = '\b(static|pure|protected|private|public)\b';
+		},
+		{	name = 'support.type.ugen.global.chuck';
+			match = '\b(dac|adc|blackhole)\b';
+		},
+		{	name = 'support.type.ugen.standart.chuck';
+			match = '\b(SinOsc|PulseOsc|SqrOsc|TriOsc|SawOsc|Phasor|Noise|Impulse|Step|Gain|SndBuf|HalfRect|FullRect|ZeroX|Mix2|Pan2|GenX|CurveTable|WarpTable|LiSa)\b';
+		},
+		{	name = 'support.type.ugen.filter.chuck';
+			match = '\b(OneZero|TwoZero|OnePole|TwoPole|PoleZero|BiQuad|Filter|LPF|HPF|BPF|BRF|ResonZ|Dyno)\b';
+		},
+		{	name = 'support.type.ugen.stk.chuck';
+			match = '\b(Envelope|ADSR|Delay|DelayA|DelayL|Echo|JCRev|NRev|PRCRev|Chorus|Modulate|PitShift|SubNoise|Blit|BlitSaw|BlitSquare|WvIn|WaveLoop|WvOut)\b';
+		},
+		{	name = 'support.type.ugen.instrument.chuck';
+			match = '\b(StkInstrument|BandedWG|BlowBotl|BlowHole|Bowed|Brass|Clarinet|Flute|Mandolin|ModalBar|Moog|Saxofony|Shakers|Sitar|StifKarp|VoicForm|FM|BeeThree|FMVoices|HevyMetl|PercFlut|Rhodey|TubeBell|Wurley)\b';
+		},
+	);
+}
