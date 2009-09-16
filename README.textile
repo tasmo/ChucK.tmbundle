@@ -8,6 +8,7 @@ h3. What is what?
 
 *ChucK.tmbundle* fills the gap between a GUI(graphical user interface) programming editor and the CLI(command line interface) programm *chuck*.
 
+
 h3. Bundle features:
 
 * Syntax highlighting for *.ck* files
@@ -15,12 +16,14 @@ h3. Bundle features:
 * Add files to *chuck*
 * Remove all shreds
 
-h3. Todo
+
+h3. Todo:
 
 * add missing UGens
 * Fully working *"ChucK"* commands
 
-h3. Installation
+
+h3. Installation:
 
 In *Terminal.app* execute:
 @mkdir -p ~/Library/Application\ Support/TextMate/Bundles/@
@@ -28,7 +31,8 @@ In *Terminal.app* execute:
 @git clone git://github.com/tasmo/ChucK.tmbundle.git ChucK.tmbundle@
 @osascript -e 'tell app "TextMate" to reload bundles'@
 
-h3. Key short cuts
+
+h3. Key short cuts:
 
 * @⌃⌘+@ – *add file to chuck*
 * @⌃⌘-@ – *remove all shreds*
