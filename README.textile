@@ -1,5 +1,4 @@
 h1. Textmate bundle for "ChucK":http://chuck.cs.princeton.edu/
-
 h2. What is what?
 
 "ChucK":http://chuck.cs.princeton.edu/ => Strongly-timed, Concurrent, and On-the-fly Audio Programming Language<br />
