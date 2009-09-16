@@ -1,6 +1,6 @@
 h1. Textmate bundle for "ChucK":http://chuck.cs.princeton.edu/
 
-h2. What is what?
+h3. What is what?
 
 "ChucK":http://chuck.cs.princeton.edu/ => Strongly-timed, Concurrent, and On-the-fly Audio Programming Language
 
@@ -15,22 +15,20 @@ h3. Bundle features:
 * Add files to *chuck*
 * Remove all shreds
 
-h2. Todo
+h3. Todo
 
 * add missing UGens
 * Fully working *"ChucK"* commands
 
-h2. Installation
+h3. Installation
 
 In *Terminal.app* execute:
-<pre>
-mkdir -p ~/Library/Application\ Support/TextMate/Bundles/
-cd ~/Library/Application\ Support/TextMate/Bundles
-git clone git://github.com/tasmo/ChucK.tmbundle.git ChucK.tmbundle
-osascript -e 'tell app "TextMate" to reload bundles'
-</pre>
+@mkdir -p ~/Library/Application\ Support/TextMate/Bundles/@
+@cd ~/Library/Application\ Support/TextMate/Bundles@
+@git clone git://github.com/tasmo/ChucK.tmbundle.git ChucK.tmbundle@
+@osascript -e 'tell app "TextMate" to reload bundles'@
 
-h2. Key short cuts
+h3. Key short cuts
 
 * @⌃⌘+@ – *add file to chuck*
 * @⌃⌘-@ – *remove all shreds*
