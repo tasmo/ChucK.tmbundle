@@ -1,0 +1,13 @@
+# Site settings
+title: tasmo/ChucK.tmbundle @ GitHub
+tag_text:
+description: TextMate support for the ChucK language
+
+# Build settings
+markdown: kramdown
+
+# mudules
+gems:
+  - jemoji
+
+exclude: ["README.md"]

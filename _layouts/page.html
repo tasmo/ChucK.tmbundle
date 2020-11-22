@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<section class="standalone">
+  <div class="grid">
+    <div class="unit whole">
+      <article>
+      	{% if site.tag_text %}<h2><a href="./">{{ site.tag_text }}</a></h2>{% endif %}
+      	<h1><a href="./">{{ page.title }}</a></h1>
+        {{ content }}
+      </article>
+    </div>
+
+    <div class="clear"></div>
+
+  </div>
+</section>
