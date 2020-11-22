@@ -1,9 +1,7 @@
 ---
 layout: page
-title: tasmo/ChucK.tmbundle @ GitHub
+title: ChucK.tmbundle
 ---
-
-# ChucK.tmbundle
 
 > TextMate support for the ChucK language
 
