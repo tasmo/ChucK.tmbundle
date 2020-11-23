@@ -9,7 +9,7 @@ title: ChucK.tmbundle
 
 tasmo
 
-## Doenload
+## Download
 
 You can download this project in either [zip](http://github.com/tasmo/ChucK.tmbundle/zipball/master) or [tar](http://github.com/tasmo/ChucK.tmbundle/tarball/master) format.
 
